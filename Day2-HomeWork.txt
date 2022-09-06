@@ -1,0 +1,126 @@
+1) Take the diameter of a circle as input. Print the area of the circle as integer input.
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int radius=sc.nextInt();
+        double pi = 3.142, area;
+        area = pi * radius * radius;
+        System.out.println("Area of circle is :" + area);
+    }
+}
+
+
+2) Take the base and height of a triangle as input and store them in double variables x
+and y and print its area.
+
+public class Main {
+    public static void main(String[] args) {
+     
+          Scanner sc=new Scanner(System.in);
+          double x=sc.nextDouble();
+          double y=sc.nextDouble();
+          double area ;
+          area = ( x*y) / 2 ;
+          System.out.println("Area of Triangle is: "+area);
+    }
+}
+
+3) Take an input x, check if it is greater than 1000 or not. Print true or false.
+
+public class Main {
+    public static void main(String[] args) {
+     
+          Scanner sc=new Scanner(System.in);
+          int x=sc.nextInt();
+         boolean ans=x>1000;
+        System.out.println(ans);
+    }
+}
+
+
+5) Find the answer of the following expressions
+a. Int x = 7+3+4  Ans=14
+b. Int x = 12 + 5 + 8  Ans=
+c. Int x= 13/5 + 18/8  Ans=25
+d. double x= 12 + 5.0 + 2.76  Ans=19.759999999999998
+e. double x= 12/3 + 13/2  Ans=10.0
+f. double x=12/3 + 13.0/2  Ans=10.5
+g. double x=14/2 + 15.0/4  Ans=10.75
+h. double x= 13/2 % 5/3  Ans=0.0
+i. double x= 17.0/2 % 16.0/4  Ans=2.125
+
+6) Store these expressions inside a Boolean variable ans. Print their outputs true or
+false accordingly
+a. boolean ans = 3 > 2 Ans=True
+b. boolean ans = 3 ≥ 3 Ans=True
+c. boolean ans = 4 + 3 > 9 Ans=false
+d. boolean ans = 10 + 8 > 10 Ans=true
+e. boolean ans = 12 != 10 Ans=true
+f. boolean ans = 13 == 13 Ans=true
+g. boolean ans = 14 != 14 Ans=false
+h. boolean ans = 20 == 5*4 Ans=true
+i. boolean ans = 30 != 3+4-10 Ans=true
+j. boolean ans = 20 == 41/2 Ans=true
+
+7) Take marks of a student in five subjects as input in a double variable. Print the sum
+of total marks and also find the percentage of the student.
+
+public class Main {
+    public static void main(String[] args) {
+     float eng, phy, chem, math, comp; 
+     double total, percentage;
+     Scanner op=new Scanner(System.in);
+    eng=op.nextFloat();
+    
+    phy=op.nextFloat();
+
+    chem=op.nextFloat();
+   
+    math=op.nextFloat();
+   
+    comp=op.nextFloat();
+
+ 
+    total = eng + phy + chem + math + comp;
+   
+    percentage = (total / 500.0) * 100;
+
+  
+    System.out.println("Total marks ="+total);
+
+    System.out.println("Percentage = "+percentage);
+    }
+}
+
+8) Take four integer inputs and check if the product of them is greater than 1000 or
+not. Print true or false accordingly.
+
+public class Main {
+    public static void main(String[] args) {
+    
+    Scanner sc=new Scanner(System.in);
+          int x=sc.nextInt();
+          int y=sc.nextInt();
+          int z=sc.nextInt();
+          int w=sc.nextInt();
+         boolean ans=x*y*z*w>1000;
+        System.out.println(ans);
+
+ 
+  
+    }
+}
+
+
+9) Take an integer input and check if the number is divisible by 7 or not.
+public class Main {
+    public static void main(String[] args) {
+    
+    Scanner sc=new Scanner(System.in);
+          int x=sc.nextInt();
+        boolean ans=x%7==0;
+        System.out.print(ans);
+    }
+}
+
